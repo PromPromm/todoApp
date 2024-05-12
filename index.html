@@ -6,6 +6,7 @@
     <title>Todo App</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+  
 <body>
     <div id="container">
         <section>
@@ -14,17 +15,23 @@
         </section>
         <section>
             <p>Tasks to do - 4</p>
-            <input type="text" name="" class="tasks" disabled>
-            <br>
-            <br>
-            <input type="text" name="" class="tasks" disabled>
-            <br>
-            <br>
-            <input type="text" name="" class="tasks" disabled>
+            <div class="task-icons">
+                <input type="text" name="" disabled>
+                <div class="icon right-icons">
+                    <i class="fa-solid fa-check"></i>
+                    <i class="fa-solid fa-trash"></i>
+                    
+                </div>
+            </div>
         </section>
         <section>
             <p>Done - 1</p>
-            <input type="text" name="" id="done" disabled>
+            <div class="done-icon">
+                <input type="text" name="" id="done" disabled>
+                <div class="icon">
+                    <i class="fa-solid fa-arrow-rotate-left"></i>
+                </div>
+            </div>
         </section>
     </div>
 <script src="app.js"></script>

@@ -52,3 +52,24 @@ section input {
     border: none;
     border-radius: 10px;
 }
+.task-icons, .done-icon {
+    position: relative;
+  }
+  
+.task-icons .icon, .done-icon .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+.task-icons .right-icons, .done-icon .icon {
+    right: 40px;
+  }
+  
+  .task-icons .right-icons i, .done-icon .icon i {
+    background-color: inherit;
+    color: #9E78CF;
+  }
+
+  
+  
