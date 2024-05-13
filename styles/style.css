@@ -48,9 +48,18 @@ p {
 section input {
     width: 97%;
     background-color: #151012;
-    padding: 30px 0;
+    padding: 30px 0px;
     border: none;
     border-radius: 10px;
+}
+
+section input[value] {
+    /* padding-left: 40px; */
+    font-size: 16px;
+}
+
+section input:value {
+    margin-left: 30px;
 }
 .task-icons, .done-icon {
     position: relative;
